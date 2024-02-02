@@ -7,7 +7,7 @@ public class GenerateApp {
     public static void main(String[] args) {
         // 加载配置文件生成DB相关类和Mapper示例代码
 //         generateDbResorceDemo(2);
-        GeneratorUtil.generateDbResorce("D:\\temp\\dbgenerate\\idr_tencentcloud_config.xml");
+        GeneratorUtil.generateDbResorce("resources/db_gen_config/demo_ruomm-springcloud.xml");
     }
 
     // 加载配置文件生成DB相关类和Mapper示例代码
